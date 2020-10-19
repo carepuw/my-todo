@@ -1,0 +1,14 @@
+{
+    "tasks":[
+        {
+            "id": 1,
+            "name": "JavaScript",
+            "complete": false
+        },
+        {
+            "id": 2,
+            "name": "One more task",
+            "complete": true
+        }
+    ]
+}
