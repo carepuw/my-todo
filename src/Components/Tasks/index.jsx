@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 
 import './index.scss'
 
@@ -17,7 +18,7 @@ const Tasks = ( {item, remove, complete} ) => {
             <ul className="tasks-row">
                 {item.map( (items,index) => (
                     <div className="tasks-row-item" key={index}>
-                        <li className={`task__name ${items.complete ? 'comp': ''}`}>
+                        <li className={classNames("task__name", {"comp": items.complete})}>
                             {items.name}
                         </li>
                         <button 

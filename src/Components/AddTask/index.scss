@@ -4,10 +4,15 @@
     border-bottom: 1px solid rgb(180, 180, 180);
 
     input {
-        width: 80%;
+        width: calc(77% - 4px);
         padding: 7px 5px;
         font-size: 18px;
-        border: 0;
-        box-shadow: 0px 2px 10px rgb(202, 202, 202);
+        border-radius: 4px;
+        border: 2px solid transparent;
+        box-shadow: 0px 1px 5px rgb(85, 85, 85);
+
+        &:focus {
+            border-color: rgb(103, 98, 116);
+        }
     }
 }
