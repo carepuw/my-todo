@@ -41,6 +41,9 @@ function App() {
 
   return (
     <div className="todo">
+      <div className="headerName">
+        Perfect To-Do.
+      </div>
       <AddTask 
         add={createNewTask} 
       />

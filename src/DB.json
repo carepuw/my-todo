@@ -9,6 +9,11 @@
             "id": 2,
             "name": "One more task",
             "complete": true
+        },
+        {
+            "id": 3,
+            "name": "New project",
+            "complete": false
         }
     ]
 }
